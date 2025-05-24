@@ -1,0 +1,45 @@
+{
+  "id": "decorous-tripkees",
+  "title": "Decorous Tripkees",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "url": "https://github.com/LionsBrainMedia/decorous-tripkees.git",
+  "packs": [
+    {
+      "name": "decorous-pc-options",
+      "label": "Decorous PC Options",
+      "path": "packs/decorous-pc-options",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "decorous-bestiary",
+      "label": "Decorous Bestiary",
+      "path": "packs/decorous-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "foolish-dragon",
+      "label": "Foolish Dragon",
+      "path": "packs/foolish-dragon",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ]
+}
